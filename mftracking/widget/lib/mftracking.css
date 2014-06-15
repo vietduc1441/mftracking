@@ -1,0 +1,84 @@
+
+#mftracking {
+    position: fixed;
+    bottom: 0px;
+    right: 100px;
+    z-index: 10000;
+    background:#2c94da;
+}
+#mftracking svg {
+    position: absolute;
+/*    top: -600px;
+    left: -850px;*/
+}
+#mftracking svg .title{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-anchor: middle;
+}
+#mftracking hide {
+    display: none;
+}
+
+.record-btn {
+}
+.clear-btn {
+}
+.display-btn {
+}
+#mftracking .background {
+    fill: #BDBDBD;
+    stroke-width:2.5;
+    stroke:#2c94da;
+}
+
+#mftracking .xAxis{
+    font:10px sans-serif;
+    shape-rendering:crispEdges;
+}
+#mftracking .xAxis line, 
+#mftracking .xAxis path{
+    fill: none;
+}
+#mftracking .xAxis line{
+    stroke:#000;
+}
+#mftracking .yAxis text{
+    font-style: italic;
+}
+#mftracking .yAxis line, 
+#mftracking .yAxis path{
+    fill: none;
+}
+#mftracking .yAxis line{
+    stroke:#777;
+    stroke-dasharray:2,2;
+}
+#mftracking .bar {
+    fill: steelblue;
+}
+
+#mftracking .bar:hover {
+  fill: orange;
+}
+.livemf{
+    
+}
+.livemf:hover{
+    fill: steelblue;
+    opacity: 0.5;
+}
+.livemf .livebackground  {
+    fill: white;
+    stroke: #BDBDBD;
+    stroke-width: 0.5;
+}
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    z-index: 10001;
+}

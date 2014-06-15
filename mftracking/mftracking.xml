@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="mftracking.widget.mftracking" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>mftracking</name>
+  <description>Microflow tracking</description>  
+  <properties>
+    <property key="title" type="string" required= "false">
+        <caption>Title</caption>
+        <category>Common</category>
+        <description>Title.</description>
+    </property>
+  </properties>
+</widget>
